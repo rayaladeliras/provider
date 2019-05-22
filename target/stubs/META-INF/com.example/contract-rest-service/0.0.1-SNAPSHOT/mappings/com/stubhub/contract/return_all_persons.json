@@ -1,0 +1,16 @@
+{
+  "id" : "37681c3a-2c75-491b-b3cf-d63e348a9272",
+  "request" : {
+    "url" : "/person",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "[{\"id\":1,\"name\":\"Richard\",\"surname\":\"Gere\"},{\"id\":2,\"name\":\"Emma\",\"surname\":\"Choplin\"},{\"id\":3,\"name\":\"Anna\",\"surname\":\"Carolina\"}]",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "37681c3a-2c75-491b-b3cf-d63e348a9272"
+}
